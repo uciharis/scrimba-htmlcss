@@ -1,0 +1,11 @@
+input {
+    display: block;
+}
+
+#profil{
+    display: inline;
+}
+
+button {
+    display: block;
+}
