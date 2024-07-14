@@ -1,0 +1,17 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+}
+img {
+    padding: 3px;
+    margin: 3px;
+}
