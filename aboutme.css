@@ -3,15 +3,48 @@ html body {
     padding: 0;
 }
 
+h1 {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     align-items: baseline;
+    align-self: baseline;
 }
 img {
     padding: 3px;
     margin: 3px;
+}
+
+.hub {
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.back {
+    width: 80%;
+    margin: 50px;
+    padding: 50px;
+    order: 5;
+    flex-grow: 3;
+    flex-shrink: 3;
+    align-self: center;
+
+
 }
