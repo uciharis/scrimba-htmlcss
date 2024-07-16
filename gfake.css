@@ -3,40 +3,54 @@ html, body {
     padding: 0;
 }
 
-.kontener {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-
-}
 
 img {
+    width: 80%;
+    display: block;
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .search-input {
+    display: block;
     border-radius: 10px;
-    margin: 5px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
     width: 18.75rem;
     height: 1.25rem;
-    margin-top: 20px;
 }
 
-button {
-    margin: 4px;
+.button {
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+
+
+.cek, .search {
+    margin-top: 10px;
+    display: inline-block;
     padding: 4px;
     border: none;
     background-color: #EFF3F4;
     border-radius: 10px;
     cursor: pointer;
-}
-butto:hover {
+} */
+
+button:hover {
     cursor: pointer;
 }
 
+
+p {
+    text-align: center;
+}
+
+
 .back {
-    margin: 30px;
+    display: block;
+    text-align: left;
+    margin-top: 40px;
     padding: 30px;
 }
