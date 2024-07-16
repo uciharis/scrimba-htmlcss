@@ -28,9 +28,9 @@ img {
 }
 
 
-.cek, .search {
+.search, .cek {
     margin-top: 10px;
-    display: inline-block;
+    display: inline;
     padding: 4px;
     border: none;
     background-color: #EFF3F4;
