@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.merah, .biru, .hijau {
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.merah {
+    background: red;
+}
+
+.biru {
+    background: blue;
+    margin: 20px 0;
+}
+
+.hijau {
+    background: green;
+}
